@@ -1,0 +1,642 @@
+/* google font linking */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Global CSS start*/
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/*header 1 CSS start*/
+
+header{
+width: 100%; 
+}
+
+header .f-header{
+   padding: 10px;  
+   background: black;
+   color: white;
+}
+
+header .f-header .contract{
+
+}
+
+header .f-header .contract span{
+ font-size: 13px;
+ font-weight: 400;
+ font-style: normal;
+ padding-left: 30px;
+}
+
+header .f-header .s-icon{
+  padding-right: 30px;
+}
+
+header .f-header .s-icon span{
+ padding-right: 10px;
+}
+
+header .f-header .s-icon span i{
+height: 15px;
+}
+
+/*header 1 CSS end*/
+
+
+/*header 2 CSS start*/
+
+header .s-header{
+  
+}
+
+header .s-header .navbar{
+  
+}
+
+header .s-header .navbar .navbar-brand{
+    font-size: 35px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+header .s-header .navbar .nav-item {
+  padding: 10px 8px; 
+}
+
+header .s-header .navbar .nav-item .nav-link{
+  font-size: 15px;
+  line-height: 27px;
+  color:#000;
+}
+
+header .s-header .navbar .nav-item .nav-link i{
+  font-size: 25px;
+  line-height: 27px;
+  color:#000;
+}
+
+/*header 2 CSS end*/
+
+/*benner section CSS start*/
+.benner-section{
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+
+.benner-section .b-overlay{
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color:#0004;
+}
+
+.benner-section .carousel-inner img{
+  width: 100%;
+  height: 110vh;
+}
+
+
+.benner-section .carousel-inner .carousel-caption{
+  color: rgb(255, 255, 255) ; 
+ font-family: "Roboto", sans-serif;
+}
+
+.benner-section .carousel-inner .carousel-caption h1{
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 200px;
+  
+}
+
+.benner-section .carousel-inner .carousel-caption p{
+  font-size: 17px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 300;
+  padding: 10px 250px;
+}
+
+.benner-section .carousel-inner .carousel-caption .btn{
+ 
+}
+
+.benner-section .carousel-inner .carousel-caption .btn button{
+ font-size: 18px;
+ font-weight: 300;
+ padding: 10px 30px;
+ border: 1px solid rgb(243 92 34);
+ background-color:rgb(243 92 34);
+ color: rgb(255, 255, 255);
+}
+
+
+/*benner section CSS end*/
+
+/*product section heading CSS start*/
+.product-section{
+
+margin-bottom:100px  ;
+}
+
+.product-section .p-heading{
+ padding-top: 60px;
+}
+
+.product-section .p-heading h1{
+  font-weight: 400;
+  font-size: 38px;
+   line-height: 48px;
+  text-align: center;
+ 
+}
+
+
+/*product section heading CSS end*/
+
+/*product section CSS start*/
+.product-section .p-inner{
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.product-section .p-inner .pro-img{
+background: url(./img/product1.webp) ;
+width: 100%;
+height: 250px;
+background-size: cover;
+
+}
+
+.product-section .p-inner .pro-img:hover{
+background-size: auto;
+  
+  }
+  
+  .product-section .p-inner {
+  padding-bottom: 30px;
+  padding-top: 60px;
+}
+
+
+.product-section .p-inner .p-f{
+  padding-left: 30px;
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  text-align: left;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 21px;
+}
+
+
+
+.product-section .p-inner .p-s{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  line-height: 21px;
+
+  font-weight: 400;
+}
+
+
+
+.product-section .p-inner a{
+  color: rgb(243, 92, 34);;
+  line-height: 30px;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 300;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+
+}
+
+.product-section .prod-btn {
+  padding: 17px 39%;
+ }
+
+.product-section .prod-btn button{
+  font-size: 18px;
+  font-weight: 300;
+  padding: 12px 100px;
+  border: 1px solid rgb(243 92 34);
+  background-color:rgb(243 92 34);
+  color: rgb(255, 255, 255);
+  
+ }
+
+
+/*product section CSS end*/
+
+/*vlog section CSS start*/
+.vlog-section{
+  
+}
+
+.vlog-section .v-img{
+  background: url(./img/blog-main.webp) center center no-repeat;
+  height: 80vh;
+  background-size: cover;
+}
+
+.vlog-section .v-heading{
+  text-align: left;
+  margin-top: 90PX;
+  margin-left: 80PX;
+  margin-right: 15px;
+
+}
+
+.vlog-section .v-heading H3{
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+
+
+}
+
+.vlog-section .v-heading P{
+  padding-top: 20PX;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #515151;
+}
+
+.vlog-section .v-heading .v-btn{
+  padding-top: 20PX;
+
+}
+
+.vlog-section .v-heading button{
+  width: 48%;
+  height: 48PX;
+  font-size: 20PX;
+  font-weight: 300;
+  background: transparent;
+  border: 1PX solid #515151;
+  color: #515151;
+
+}
+/*vlog section CSS end*/
+
+
+/*vlog 2 section CSS start*/
+.vlog2-section{
+margin: 70px 0px;
+}
+
+.vlog2-section .v-img{
+  background: url(./img/blog-2.webp) center center no-repeat;
+  height: 80vh;
+  background-size: auto ;
+
+}
+
+.vlog2-section .v-heading{
+  text-align: left;
+  margin-top: 90PX;
+  margin-left: 20PX;
+  margin-right: 15px;
+
+}
+
+.vlog2-section .v-heading H3{
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+
+
+}
+
+.vlog2-section .v-heading P{
+  padding-top: 20PX;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #515151;
+    width: 85%;
+}
+
+.vlog2-section .v-heading .v-btn{
+  padding-top: 20PX;
+
+}
+
+.vlog2-section .v-heading button{
+  width: 48%;
+  height: 48PX;
+  font-size: 20PX;
+  font-weight: 300;
+  background: transparent;
+  border: 1PX solid #515151;
+  color: #515151;
+
+}
+
+/*vlog 2 section CSS end*/
+
+/*product 2 section CSS start*/
+.product2-section {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  }
+  .product2-section .p-heading{
+    
+   
+  }
+  .product2-section .p-heading h1{
+    font-weight: 400;
+    font-size: 38px;
+     line-height: 48px;
+    text-align: center;
+   
+  }
+
+  .product2-section .p-inner{
+    margin-top: -40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .product2-section .p-inner .pro-img{
+  background: url(./img/product_backpack.webp) center;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  }
+
+  .product2-section .p-inner .pro-img:hover{
+  background-size: auto;
+  }
+  
+  .product2-section .p-inner {
+    padding-bottom: 30px;
+    padding-top: 60px;
+  }
+  
+  
+  .product2-section .p-inner .p-f{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    text-align: left;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 21px;
+  }
+  
+  
+  
+  .product2-section .p-inner .p-s{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 21px;
+  
+    font-weight: 400;
+  }
+  
+  
+  
+  .product2-section .p-inner a{
+    color: rgb(243, 92, 34);;
+    line-height: 30px;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+  
+  }
+  
+/*product 2 section CSS end*/
+
+/*page-number section CSS start*/
+.page-number{
+margin-bottom: 20px;
+}
+
+.page-number .col-lg-12{
+  text-align: center;
+}
+
+.page-number .col-lg-12 span{
+  padding-right: 5px;
+}
+
+.page-number .col-lg-12 span i{
+    font-size: 20px;
+    font-weight: 200;
+    color: #515151;
+}
+
+.page-number .col-lg-12 span a{
+  text-decoration: none;
+  font-size:17px;
+  font-weight: 300;
+  color: #000;
+}
+
+.page-number .col-lg-12 span a:hover{
+  text-decoration: underline;
+}
+
+/*page-number section CSS end*/
+
+/*Customer-reviews section CSS start*/
+.Customer-reviews{
+background: #f8f0f0 ;
+
+}
+
+.Customer-reviews .col-lg-12{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.Customer-reviews .col-lg-12 h1{
+  
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.Customer-reviews .col-lg-12 p{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #515151;
+  padding: 0px 15%;
+}
+
+.Customer-reviews .col-lg-6{
+  margin-bottom: 80px;
+  padding: 0px 15px;
+}
+
+.Customer-reviews .col-lg-6 .rvw-inner{
+  width: 95%;
+  background: white; 
+  text-align: center;
+  padding: 25px;
+}
+
+.Customer-reviews .col-lg-6 .rvw-inner img{
+  margin-top: 15px;
+  border-radius: 50%;     
+}
+
+.Customer-reviews .col-lg-6 .rvw-inner p{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #515151;     
+}
+
+.Customer-reviews .col-lg-6 .rvw-inner a{
+ text-decoration: none;     
+ color: rgb(243, 92, 34); 
+ font-size: 15px; 
+ text-align: center;
+}
+
+
+/*Customer-reviews section CSS end*/
+
+/*sign-in section CSS start*/
+.sign-in-section{
+background: #f35c22;
+}
+
+.sign-in-section .sign-in{
+padding: 100px 0px;
+text-align: center;
+}
+
+.sign-in-section .sign-in h1{
+  font-size: 38px;
+  line-height: 48px;
+  color:white;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.sign-in-section .sign-in p{
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 300;
+  color: white;  
+  padding-bottom: 50px;
+}
+
+.sign-in-section .sign-in .label{
+padding-bottom: 25px;
+
+}
+
+.sign-in-section .sign-in input{
+width: 450px;
+height: 50px;
+box-sizing: border-box;
+border: medium none;
+
+}
+
+.sign-in-section .sign-in input::placeholder{
+padding-left: 30px;
+font-weight: 400;
+color: #bdbdbd;
+font-size: 16px;
+}
+
+.sign-in-section .sign-in .signup-btn{ 
+
+}
+
+.sign-in-section .sign-in .signup-btn a{ 
+
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+/*sign-in section CSS end*/
+
+/*fotter section CSS start*/
+footer{
+padding: 10px 20px;
+}
+
+footer .s-icon span{
+ font-size: 20px;
+ font-weight: 400;
+ font-style: normal;
+}
+
+footer .s-icon{
+  padding-left: 30px;
+}
+
+footer .s-icon span{
+ padding-right: 20px;
+}
+
+footer .navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+footer .navbar .nav-item {
+  padding: 0px 5px; 
+}
+
+header .s-header .navbar .nav-item .nav-link{
+  font-size: 15px;
+  line-height: 27px;
+  color:#000;
+}
+
+header .s-header .navbar .nav-item .nav-link i{
+  font-size: 25px;
+  line-height: 27px;
+  color:#000;
+}
+/*fotter section CSS end*/
